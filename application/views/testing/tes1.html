@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Dropdown dengan Tombol Terapkan</title>
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content div {
+            padding: 12px 16px;
+            cursor: pointer;
+        }
+
+        .dropdown-content div:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown .dropbtn {
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        let selectedValue = null;
+
+        function pilihOpsi(value, text) {
+            selectedValue = value;
+            document.querySelector('.dropbtn').innerText = text;
+            document.querySelector('.dropdown-content').style.display = 'none';
+        }
+
+        function kalkulasi() {
+            if (selectedValue !== null) {
+                // Konversi nilai menjadi integer
+                let angka = parseInt(selectedValue);
+
+                // Lakukan kalkulasi (misalnya, kali dua)
+                let hasil = angka * 2;
+
+                // Tampilkan hasil di dalam elemen dengan id 'hasil'
+                document.getElementById('hasil').innerText = 'Hasil kali dua: ' + hasil;
+            } else {
+                alert('Silakan pilih opsi terlebih dahulu.');
+            }
+        }
+
+        function toggleDropdown() {
+            let dropdownContent = document.querySelector('.dropdown-content');
+            if (dropdownContent.style.display === 'block') {
+                dropdownContent.style.display = 'none';
+            } else {
+                dropdownContent.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Custom Dropdown dengan Tombol Terapkan</h2>
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">Pilih opsi</button>
+        <div class="dropdown-content">
+            <div onclick="pilihOpsi(1, 'Opsi 1 (1)')">Opsi 1 (1)</div>
+            <div onclick="pilihOpsi(2, 'Opsi 2 (2)')">Opsi 2 (2)</div>
+            <div onclick="pilihOpsi(3, 'Opsi 3 (3)')">Opsi 3 (3)</div>
+            <div onclick="pilihOpsi(4, 'Opsi 4 (4)')">Opsi 4 (4)</div>
+        </div>
+    </div>
+    <br><br>
+    <button onclick="kalkulasi()">Terapkan</button>
+    <br><br>
+    <div id="hasil">Hasil kali dua: </div>
+</body>
+</html>
