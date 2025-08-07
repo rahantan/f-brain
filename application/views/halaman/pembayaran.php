@@ -41,33 +41,7 @@
                         </div>
                     </div>
                     <hr>
-                    <h6>Kode Promo <i class="fa-solid fa-circle-info"></i></h6>
-                    <span>Bayar lebih hemat dengan promo</span>
-                    <div class="dropdown">
-                        <br>
-                        <div class=""></div>
-                        <button class="btn btn-custom" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Gunakan Voucher
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#" onclick="">
-                                    <i class="fa-solid fa-ticket" style="color: #DC5F00;"></i> Bayar lebih hemat dengan promo
-                                    <button type="button" class="btn btn-outline-warning" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; border-radius: 2px;">Gunakan
-                                    </button>
-                                </a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa-solid fa-ticket" style="color: #DC5F00;"></i> Bayar lebih hemat dengan promo
-                                    <button type="button" class="btn btn-outline-secondary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; border-radius: 2px;" disabled>Terpakai
-                                    </button>
-                                </a>
-                            </li>
-                        </ul>
-                        <button type="button" class="btn btn-secondary" style="border-radius: 2px; background-color: #EEEEEE; color: black;">Gunakan</button>
-                    </div>
+                    <!--  -->
                 </div>
                 <hr>
                 <div class="container">

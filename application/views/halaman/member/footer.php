@@ -22,9 +22,9 @@
         background: #373A40
     }
 </style>
-<a href="<?= base_url('chat') ?>" class="act-btn">
+<!-- <a href="<?= base_url('chat') ?>" class="act-btn">
     <i class="fa-solid fa-comment" style="color: #EEEEEE;"></i>
-</a>
+</a> -->
 <div style="background-color: #373A40;">
     <div class="container" style="padding-top: 40px; padding-bottom: 40px;">
         <div class="row">
