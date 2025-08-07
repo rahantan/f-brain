@@ -45,13 +45,4 @@ serta menyediakan dashboard admin untuk monitoring data dan transaksi secara efi
 > _Silakan kirim kritik dan saran Anda ke email:_  
 > **jidanrahantan@gmail.com**
 
----
 
-## 🤝 Berkontribusi
-
-Siapa pun dapat berkontribusi pada proyek ini — baik dalam bentuk pemrograman, pembuatan buku manual,  
-maupun membantu memperkenalkan aplikasi ini kepada mahasiswa untuk mengurangi kesenjangan pendidikan teknologi.
-
-Jika tertarik berkontribusi, silakan buat **issue** di repository ini.
-
----
