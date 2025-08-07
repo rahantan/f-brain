@@ -4,7 +4,7 @@
 
 # Cara menggunakan
 
-    buat database dengan nama db_f-brain
+    buat database dengan nama db_fbrain
 
 import database
 sesuaikan port pada file config agar tidak terjadi masalah
