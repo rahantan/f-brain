@@ -1,41 +1,57 @@
-# Sistem Penggajian Karyawan
+# 📘 Sistem Penggajian Karyawan
 
-    F-BRAIN adalah aplikasi LMS berbasis web untuk mengelola kursus bimbingan belajar secara online. Aplikasi ini memfasilitasi pendaftaran peserta, akses materi, pengelolaan kelas, dan pembayaran digital, serta menyediakan dashboard admin untuk monitoring data dan transaksi secara efisien.
+F-BRAIN adalah aplikasi LMS berbasis web untuk mengelola kursus bimbingan belajar secara online.  
+Aplikasi ini memfasilitasi pendaftaran peserta, akses materi, pengelolaan kelas, dan pembayaran digital,  
+serta menyediakan dashboard admin untuk monitoring data dan transaksi secara efisien.
 
-# Cara menggunakan
+---
 
-    buat database dengan nama db_fbrain
+## 🚀 Cara Menggunakan
 
-import database
-sesuaikan port pada file config agar tidak terjadi masalah
+1. Buat database dengan nama: `db_fbrain`
+2. Import struktur dan data database
+3. Sesuaikan port pada file `config` agar tidak terjadi konflik saat menjalankan aplikasi
 
-# Halaman Login Siswa
+---
 
-    http://localhost/f-brain-lama/auth/login
+## 🔐 Halaman Login
 
-# Halaman Login Admin
+### Login Siswa
 
-    http://localhost/f-brain-lama/auth/LoginTutor
+[http://localhost/f-brain-lama/auth/login](http://localhost/f-brain-lama/auth/login)
 
-## Login
+### Login Admin
 
-| Admin                   |
-| ----------------------- |
-| email : admin@gmail.com |
-| password : abatasaja    |
+[http://localhost/f-brain-lama/auth/LoginTutor](http://localhost/f-brain-lama/auth/LoginTutor)
 
-| Siswa                   |
-| ----------------------- |
-| email : zidan@gmail.com |
-| password : zidan123     |
+---
 
-## Kritik dan Saran
+## 🧑‍💼 Info Login
 
-| _*Silahkan kirim kritik dan saran anda ke email :*_ |
-| --------------------------------------------------- |
-| jidanrahantan@gmail.com                             |
+### 🔑 Admin
 
-## Berkontribusi
+- **Email**: `admin@gmail.com`
+- **Password**: `abatasaja`
 
-Siapapun dapat berkontribusi pada proyek ini mulai dari pemrograman, pembuakan buku manual, sampai dengan mengenalkan produk ini kepada Mahasiswa
-Untuk belajar agar mengurangi kesenjangan pendidikan teknologi dengan cara membuat postingan issue di repository ini.
+### 👨‍🎓 Siswa
+
+- **Email**: `zidan@gmail.com`
+- **Password**: `zidan123`
+
+---
+
+## 📬 Kritik dan Saran
+
+> _Silakan kirim kritik dan saran Anda ke email:_  
+> **jidanrahantan@gmail.com**
+
+---
+
+## 🤝 Berkontribusi
+
+Siapa pun dapat berkontribusi pada proyek ini — baik dalam bentuk pemrograman, pembuatan buku manual,  
+maupun membantu memperkenalkan aplikasi ini kepada mahasiswa untuk mengurangi kesenjangan pendidikan teknologi.
+
+Jika tertarik berkontribusi, silakan buat **issue** di repository ini.
+
+---
